@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A2Z</title>
+    <link rel="stylesheet" href="/style/styles.css" />
+    <link rel="stylesheet" href="./style/simple-lightbox.min.css" />
+  </head>
+  <body>
+    <nav class="nav-box">
+      <div class="nav-logo-box">
+        <img src="./assets/logo.jpg" alt="" class="nav-logo" />
+      </div>
+      <div class="nav-items">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#stakeholders">STAKEHOLDERS</a></li>
+          <li><a href="#sub">CONTACTS</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="mid-sec" id="home">
+      <div class="main-headings">
+        <h1>WE ARE PROVIDING <span>GLOBAL</span> SOLUTIONS 🚀</h1>
+        <p class="main-para">
+          Welcome to our one-stop destination for all your IT solutions!
+          <br />We are dedicated to empowering businesses and individuals with
+          cutting-edge technology and innovative solutions.
+        </p>
+        <div class="btns">
+          <button class="btn1">Learn More</button>
+          <button class="btn2"><a href="#sub">Subscribe</a></button>
+        </div>
+      </div>
+
+      <div class="img-heading-sec">
+        <img src="./assets/it-sol.png" alt="" / class="heading-img">
+      </div>
+    </section>
+
+    <section class="services-box" id="services">
+      <div class="services-heading">
+        <h1>Services</h1>
+      </div>
+      <div class="services-gallery">
+        <a href="./assets/img-1.jpg">
+          <img
+            src="./assets/img-1.jpg"
+            alt="IT CONSULTATION"
+            title="IT CONSULTATION"
+            class="img"
+          />
+        </a>
+        <a href="./assets/img-2.png">
+          <img
+            src="./assets/img-2.png"
+            alt="CLOUD SERVICES"
+            title="CLOUD SERVICES"
+            class="img"
+          />
+        </a>
+        <a href="./assets/img-3.jpg">
+          <img
+            src="./assets/img-3.jpg"
+            alt="COMPUTER TRAINING"
+            title="COMPUTER TRAINING"
+            class="img"
+          />
+        </a>
+        <a href="./assets/img-4.jpg">
+          <img
+            src="./assets/img-4.jpg"
+            alt="NETWORK SECURITY"
+            title="NETWORK SECURITY"
+            class="img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="stakeholders">
+      <div class="stakeholders">
+        <div class="headings">Our Stars</div>
+        <div class="persons">
+          <div class="person1">
+            <img src="./assets/founder.jpg" alt="" class="img-holders" />
+            <p class="name">Alex Reaves</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person2">
+            <img src="./assets/cofounder.jpg" alt="" class="img-holders" />
+            <p class="name">Nancy Drew</p>
+            <p class="role">Co Founder</p>
+          </div>
+          <div class="person3">
+            <img src="./assets/CTO.jpg" alt="" class="img-holders" />
+            <p class="name">Max Tale</p>
+            <p class="role">CTO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>
+      &copy;2023. All Rights Reserved
+      <i class="scroll-up" id="scroll-up"
+        ><img
+          src="./assets/icons8-upward-arrow.png"
+          class="socicon up-arrow"
+          alt="up-arrow"
+      /></i>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="./js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".services-gallery a");
+    </script>
+  </body>
+</html>
